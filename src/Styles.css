@@ -1,0 +1,10 @@
+/* Custom styles - small and professional */
+:root{
+--brand: #2d6a4f; /* deep green */
+--accent: #95d5b2;
+}
+body{font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;}
+.navbar-brand img{height:48px;}
+.hero{background: linear-gradient(90deg, rgba(45,106,79,0.95), rgba(28,36,33,0.85)), url('/assets/farm-hero.jpg') center/cover no-repeat; color: white; padding: 4rem 0;}
+.card-product img{height:160px; object-fit:cover}
+.footer{background:#0b2f1b; color:#fff; padding:2rem 0}
