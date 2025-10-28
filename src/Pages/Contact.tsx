@@ -5,9 +5,17 @@ export default function Contact() {
   return (
     <div className="container py-5">
       <h2 className="text-center mb-4">Contact Us</h2>
-      <div className="row g-4">
-        {/* Contact Form */}
-        <div className="col-md-6">
+
+      {/* Office Info */}
+      <div className="text-center mb-5">
+        <h5>Our Office</h5>
+        <p>123 Farm Road, Nakuru, Kenya</p>
+        <p>📞 +254 700 000000</p>
+      </div>
+
+      {/* Contact Form */}
+      <div className="row justify-content-center">
+        <div className="col-md-8 col-lg-6">
           <form>
             <div className="mb-3">
               <label htmlFor="name" className="form-label">
@@ -55,13 +63,6 @@ export default function Contact() {
               Send Message
             </button>
           </form>
-        </div>
-
-        {/* Contact Information */}
-        <div className="col-md-6">
-          <h5>Our Office</h5>
-          <p>123 Farm Road, Nakuru, Kenya</p>
-          <p>📞 +254 700 000000</p>
         </div>
       </div>
     </div>

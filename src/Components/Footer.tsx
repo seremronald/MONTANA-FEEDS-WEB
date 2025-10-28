@@ -8,7 +8,7 @@ return (
 <div className="row">
 <div className="col-md-6">
 <h5>Montana Animal Feeds</h5>
-<p>Providing nutritious animal feed across the region. Contact us for bulk orders and farm consultations.</p>
+<p>Providing nutritious animal feed across the region.</p>
 </div>
 <div className="col-md-3">
 <h6>Quick Links</h6>
