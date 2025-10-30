@@ -12,11 +12,11 @@ export default function Navbar() {
           <img
             src={logo}
             alt="Montana Feeds Logo"
-            width="40"
+            width="60"
             height="40"
             className="me-2"
           />
-          <span className="fw-bold text-success fs-5">Montana Feeds</span>
+          <span className="fw-bold text-success fs-5">SEREM FARM FEEDS</span>
         </Link>
 
         {/* ✅ Toggler for mobile */}
@@ -59,6 +59,9 @@ export default function Navbar() {
                 <li><Link className="dropdown-item" to="/products/kienyeji">Kienyeji Mash</Link></li>
                 <li><Link className="dropdown-item" to="/products/sheep">Sheep Feeds</Link></li>
               </ul>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/">About Us</Link>
             </li>
           </ul>
 
