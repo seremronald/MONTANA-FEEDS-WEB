@@ -1,11 +1,14 @@
 import React from 'react'
-
+import dairyImg from '../assets/Dairy.jpg'
+import sheepImg from '../assets/Sheep Meal.jpg'
+import kienyejiImg from '../assets/Kienjeji.jpg'
+import layersImg from '../assets/Layers.jpg'
 
 const products = [
-{id:1, name:'Dairy Feeds', img:'/src/assets/Dairy.jpg'},
-{id:2, name:'Sheep Feeds', img:'/src/assets/Sheep Meal.jpg'},
-{id:3, name:'Kienyeji Feeds', img:'/src/assets/Kienjeji.jpg'},
-{id:4, name:'Layers Feeds', img:'/src/assets/Layers.jpg'},
+{id:1, name:'Dairy Feeds', img: dairyImg},
+{id:2, name:'Sheep Feeds', img: sheepImg},
+{id:3, name:'Kienyeji Feeds', img: kienyejiImg},
+{id:4, name:'Layers Feeds', img: layersImg},
 ]
 
 

@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import farmImg from '../assets/FARM2.jpg'
 
 export default function Hero(){
 return (
@@ -13,7 +14,7 @@ return (
 </div>
 <div className="col-md-6 d-none d-md-block">
 <div className="card bg-transparent border-0">
-<img src="/src/assets/FARM2.jpg" className="img-fluid rounded shadow" alt="Feeds" />
+<img src={farmImg} className="img-fluid rounded shadow" alt="Feeds" />
 </div>
 </div>
 </div>

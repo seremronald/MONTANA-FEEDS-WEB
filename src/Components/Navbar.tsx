@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import logo from '/src/assets/SEREM FARM FEEDS.png'; // ✅ Replace with your actual logo path
+import logo from '../assets/SEREM FARM FEEDS.png';
 
 export default function Navbar() {
   return (
